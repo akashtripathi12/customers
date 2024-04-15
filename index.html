@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Reviews</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Customers Reviews on Products</h1>
+    <div class="container">
+      <div class="product">
+        <h2>Product 1</h2>
+        <div class="reviews">
+          <div class="review">
+            <div class="user">John Doe</div>
+            <div class="rating">★★★★☆</div>
+            <div class="comment">This product is great!</div>
+          </div>
+          <div class="review">
+            <div class="user">Jane Smith</div>
+            <div class="rating">★★★★★</div>
+            <div class="comment">I love this product!</div>
+          </div>
+        </div>
+        <div class="write-review">
+          <h3>Write a Review</h3>
+          <input type="text" id="userName" placeholder="Your Name" />
+          <textarea id="userReview" placeholder="Your Review"></textarea>
+          <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label
+              for="star5"
+            ></label>
+            <input type="radio" id="star4" name="rating" value="4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" id="star3" name="rating" value="3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" id="star2" name="rating" value="2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" id="star1" name="rating" value="1" /><label
+              for="star1"
+            ></label>
+          </div>
+          <button onclick="submitReview()">Submit</button>
+        </div>
+      </div>
+      <div class="product">
+        <h2>Product 2</h2>
+        <div class="reviews">
+          <div class="review">
+            <div class="user">Arkadip Siddha</div>
+            <div class="rating">★★★☆☆</div>
+            <div class="comment">This product is great!</div>
+          </div>
+          <div class="review">
+            <div class="user">Akash Tripathi</div>
+            <div class="rating">★★☆☆☆</div>
+            <div class="comment">I love this product!</div>
+          </div>
+        </div>
+        <div class="write-review">
+          <h3>Write a Review</h3>
+          <input type="text" id="userName" placeholder="Your Name" />
+          <textarea id="userReview" placeholder="Your Review"></textarea>
+          <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label
+              for="star5"
+            ></label>
+            <input type="radio" id="star4" name="rating" value="4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" id="star3" name="rating" value="3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" id="star2" name="rating" value="2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" id="star1" name="rating" value="1" /><label
+              for="star1"
+            ></label>
+          </div>
+          <button onclick="submitReview()">Submit</button>
+        </div>
+      </div>
+      <div class="product">
+        <h2>Product 3</h2>
+        <div class="reviews">
+          <div class="review">
+            <div class="user">Tushar Tiwari</div>
+            <div class="rating">★★★☆☆</div>
+            <div class="comment">This product is great!</div>
+          </div>
+          <div class="review">
+            <div class="user">Tarun Rai</div>
+            <div class="rating">★★★★☆</div>
+            <div class="comment">I love this product!</div>
+          </div>
+        </div>
+        <div class="write-review">
+          <h3>Write a Review</h3>
+          <input type="text" id="userName" placeholder="Your Name" />
+          <textarea id="userReview" placeholder="Your Review"></textarea>
+          <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label
+              for="star5"
+            ></label>
+            <input type="radio" id="star4" name="rating" value="4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" id="star3" name="rating" value="3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" id="star2" name="rating" value="2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" id="star1" name="rating" value="1" /><label
+              for="star1"
+            ></label>
+          </div>
+          <button onclick="submitReview()">Submit</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="product">
+        <h2>Product 4</h2>
+        <div class="reviews">
+          <div class="review">
+            <div class="user">Anurag Thakur</div>
+            <div class="rating">★★★★★</div>
+            <div class="comment">This product is great!</div>
+          </div>
+          <div class="review">
+            <div class="user">Devu Gupta</div>
+            <div class="rating">★★★☆☆</div>
+            <div class="comment">I love this product!</div>
+          </div>
+        </div>
+        <div class="write-review">
+          <h3>Write a Review</h3>
+          <input type="text" id="userName" placeholder="Your Name" />
+          <textarea id="userReview" placeholder="Your Review"></textarea>
+          <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label
+              for="star5"
+            ></label>
+            <input type="radio" id="star4" name="rating" value="4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" id="star3" name="rating" value="3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" id="star2" name="rating" value="2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" id="star1" name="rating" value="1" /><label
+              for="star1"
+            ></label>
+          </div>
+          <button onclick="submitReview()">Submit</button>
+        </div>
+      </div>
+      <div class="product">
+        <h2>Product 5</h2>
+        <div class="reviews">
+          <div class="review">
+            <div class="user">Rahul Sharma</div>
+            <div class="rating">★★★☆☆</div>
+            <div class="comment">This product is great!</div>
+          </div>
+          <div class="review">
+            <div class="user">Arijit Singh</div>
+            <div class="rating">★★★★★</div>
+            <div class="comment">I love this product!</div>
+          </div>
+        </div>
+        <div class="write-review">
+          <h3>Write a Review</h3>
+          <input type="text" id="userName" placeholder="Your Name" />
+          <textarea id="userReview" placeholder="Your Review"></textarea>
+          <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label
+              for="star5"
+            ></label>
+            <input type="radio" id="star4" name="rating" value="4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" id="star3" name="rating" value="3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" id="star2" name="rating" value="2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" id="star1" name="rating" value="1" /><label
+              for="star1"
+            ></label>
+          </div>
+          <button onclick="submitReview()">Submit</button>
+        </div>
+      </div>
+      <div class="product">
+        <h2>Product 6</h2>
+        <div class="reviews">
+          <div class="review">
+            <div class="user">AmanDeep Singh</div>
+            <div class="rating">★★★★☆</div>
+            <div class="comment">This product is great!</div>
+          </div>
+          <div class="review">
+            <div class="user">Diya Agrawal</div>
+            <div class="rating">★★★☆☆</div>
+            <div class="comment">I love this product!</div>
+          </div>
+        </div>
+        <div class="write-review">
+          <h3>Write a Review</h3>
+          <input type="text" id="userName" placeholder="Your Name" />
+          <textarea id="userReview" placeholder="Your Review"></textarea>
+          <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label
+              for="star5"
+            ></label>
+            <input type="radio" id="star4" name="rating" value="4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" id="star3" name="rating" value="3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" id="star2" name="rating" value="2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" id="star1" name="rating" value="1" /><label
+              for="star1"
+            ></label>
+          </div>
+          <button onclick="submitReview()">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function submitReview() {
+        var userName = document.getElementById("userName").value;
+        var userReview = document.getElementById("userReview").value;
+        var rating = document.querySelector('input[name="rating"]:checked');
+
+        if (!userName || !userReview || !rating) {
+          alert("Please fill in all fields and select a rating.");
+          return;
+        }
+
+        var reviewsContainer = document.querySelector(".reviews");
+        var newReview = document.createElement("div");
+        newReview.classList.add("review");
+        newReview.innerHTML = `
+                <div class="user">${userName}</div>
+                <div class="rating">${getStars(parseInt(rating.value))}</div>
+                <div class="comment">${userReview}</div>
+            `;
+        reviewsContainer.appendChild(newReview);
+      }
+
+      function getStars(rating) {
+        var stars = "";
+        for (var i = 0; i < 5; i++) {
+          if (i < rating) {
+            stars += "★";
+          } else {
+            stars += "☆";
+          }
+        }
+        return stars;
+      }
+    </script>
+  </body>
+</html>

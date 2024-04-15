@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(
+    25deg,
+    #bad9d8,
+    #80ccd5,
+    #6872ca,
+    #58e6ee,
+    #166cf6
+  );
+}
+
+h1 {
+    display: flex;
+    margin-left: 40%;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.product {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.rating {
+    color: #f9b707;
+}
+
+.comment {
+    color: #666666;
+    margin-top: 5px;
+}
+
+.write-review {
+    margin-top: 30px;
+}
+
+.write-review h3 {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+label:before {
+    content: '★';
+    margin-right: 5px;
+    color: #dddddd;
+}
+
+input[type="radio"]:checked ~ label:before {
+    color: #f9b707;
+}
+
+button {
+    background-color: #0072ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0057d8;
+}
